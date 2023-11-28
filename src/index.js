@@ -15,3 +15,7 @@ connectDB()
 .catch((err) => {
     console.log("MONGO db connection failed !!! ", err);
 })
+
+console.log("Cloudinary Config from process.env:", process.env.CLOUDINARY_CLOUD_NAME, process.env.CLOUDINARY_API_KEY, process.env.CLOUDINARY_API_SECRET);
+
+
